@@ -105,6 +105,9 @@ importers:
       '@vinejs/vine':
         specifier: ^3.0.0
         version: 3.0.0
+      '@workspace/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       edge.js:
         specifier: ^6.2.0
         version: 6.2.0
