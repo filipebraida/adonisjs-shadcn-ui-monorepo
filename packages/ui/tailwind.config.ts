@@ -8,6 +8,9 @@ const config = {
     "app/**/*.{ts,tsx}",
     "components/**/*.{ts,tsx}",
     "../../packages/ui/src/components/**/*.{ts,tsx}",
+    'resources/**/*.edge',
+    'resources/**/*.{js,ts,jsx,tsx,vue}',
+    'inertia/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
