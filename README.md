@@ -25,6 +25,15 @@ Navigate to the project directory and install the dependencies:
 pnpm install
 ```
 
+### Setting Up the Environment
+Copy the example environment file and generate the app key:
+```bash
+cp apps/web/.env.example apps/web/.env
+```
+```bash
+node apps/web/ace generate:key
+```
+
 ### Adding a New Component
 To add a new UI component using ShadCN, execute:
 ```bash
