@@ -1,6 +1,6 @@
-import type { Config } from "tailwindcss"
-import tailwindcssAnimate from "tailwindcss-animate"
-import { fontFamily } from "tailwindcss/defaultTheme"
+import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const config = {
   darkMode: ["class"],
@@ -8,9 +8,9 @@ const config = {
     "app/**/*.{ts,tsx}",
     "components/**/*.{ts,tsx}",
     "../../packages/ui/src/components/**/*.{ts,tsx}",
-    'resources/**/*.edge',
-    'resources/**/*.{js,ts,jsx,tsx,vue}',
-    'inertia/**/*.{js,ts,jsx,tsx}',
+    "resources/**/*.edge",
+    "resources/**/*.{js,ts,jsx,tsx,vue}",
+    "inertia/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -61,6 +61,6 @@ const config = {
     },
   },
   plugins: [tailwindcssAnimate],
-} satisfies Config
+} satisfies Config;
 
-export default config
+export default config;
