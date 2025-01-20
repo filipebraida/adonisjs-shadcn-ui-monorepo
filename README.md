@@ -16,7 +16,7 @@ This is a starter kit for AdonisJS projects using a monorepo setup. It leverages
 ### Cloning the Repository
 To initialize a new project based on this starter kit, run:
 ```bash
-pnpm init adonisjs@latest -- -K="filipebraida/adonisjs-shadcn-ui-monorepo.git"
+npm init adonisjs@latest -- -K="filipebraida/adonisjs-shadcn-ui-monorepo.git"
 ```
 
 ### Installing Dependencies
